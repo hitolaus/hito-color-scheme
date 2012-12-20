@@ -9,10 +9,12 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<!-- We set the text under Text/Source base so this is basically the gutter -->
 				<key>foreground</key>
-				<string>#BBBBBB</string>
+				<string>#FFFFFF</string>
 				<key>background</key>
-				<string>#383838</string>
+				<string>#282828</string>
+				
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>invisibles</key>
@@ -20,9 +22,7 @@
 				<key>lineHighlight</key>
 				<string>#424C57</string>
 				<key>selection</key>
-				<string>#990055</string>
-				<key>selectionBorder</key>
-				<string>#222218</string>
+				<string>#000000</string>
 				<key>findHighlight</key>
 				<string>#00FF00</string>
 				<key>findHighlightForeground</key>
@@ -42,6 +42,19 @@
 
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text/Source base</string>
+			<key>scope</key>
+			<string>text, source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#383838</string>
+				<key>foreground</key>
+				<string>#BBBBBB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +132,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#92B453</string>
 			</dict>
 		</dict>
 		<dict>
